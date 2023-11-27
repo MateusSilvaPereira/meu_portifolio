@@ -5,6 +5,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    padding-block: 40px;
 }
 
 .bio {
@@ -50,7 +52,78 @@
  
 
 .react, .css, .html, .spring, .js, .sql, .java{
-    width: 90px;
-    height: 90px;
-    cursor: pointer;
+    width: 60px;
+    height: 60px;
+}
+
+
+@media (max-width: 768){
+    .bio {
+        flex-direction: column;
+        padding-inline: 20px;
+        gap: 1rem;
+    }
+    .bio img {
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 480px){
+    .react, .css, .html, .spring, .js, .sql, .java{
+        width: 40px;
+        height: 40px;
+    }
+    .avatar {
+        width: 200px;
+        height: 200px;
+    }
+    .icones {
+        gap: 0.5rem;
+    }
+    .icones img {
+        height: 40px;
+    }
+}
+
+@media (max-width: 320px){
+
+    .bio {
+        flex-direction: column;
+        padding-inline: 20px;
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 425px){
+
+    .bio {
+        flex-direction: column;
+        padding-inline: 20px;
+        gap: 1rem;
+    }
+}
+    @media (max-width:375px){
+
+        .bio {
+            flex-direction: column;
+            padding-inline: 20px;
+            gap: 1rem;
+        }
+
+        
+
+    .react, .css, .html, .spring, .js, .sql, .java{
+        width: 30px;
+        height: 30px;
+    }
+    .avatar {
+        width: 135px;
+        height: 135px;
+    }
+    .icones {
+        gap: 0.5rem;
+    }
+    .icones img {
+        height: 30px;
+    }
 }
