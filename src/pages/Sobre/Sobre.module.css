@@ -1,0 +1,56 @@
+.sobre {
+    width: 100%;
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bio {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+
+.bio span {
+    color: var(--gren);
+    font-weight: bold;
+}
+
+.bio strong {
+    color: var(--secondary);
+}
+
+.textos h2, p {
+    margin-bottom: 1rem;
+}
+
+
+.techs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    font-weight: bold;
+}
+
+
+.avatar {
+    width: 217px;
+    height: 217px;
+}
+
+.icones {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-around;
+}
+ 
+
+.react, .css, .html, .spring, .js, .sql, .java{
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+}
